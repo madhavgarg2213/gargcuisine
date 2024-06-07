@@ -1,0 +1,265 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.logo img{
+    width:150px;
+   position: absolute;
+   z-index: 1;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    padding: 0 7vw;
+    background-color: rgb(249, 229, 211);
+    border-bottom: 2px solid goldenrod;
+    box-shadow: 0 100px 500px rgb(253, 248, 244);
+    
+    
+}
+.a a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 80px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.2s;
+}
+.bar{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+.a{
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.a a:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+
+.b a{
+    text-decoration: none;
+    margin-right: 22px;
+    color: black;
+    font-weight: 500;
+}
+.b{
+    margin-top: 25px;
+    
+}
+.b button{
+    
+    width: 80px;
+    height: 30px;
+    color: black;
+    background-color: rgb(244, 221, 121);
+    border: none;
+    border-radius: 1rem;
+    border:1px solid rgb(160, 136, 2);
+    font-weight: 500;
+    transition: 0.2s;
+}
+.b button:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+}
+.b a:hover{
+    font-weight: bold;
+    color: goldenrod;
+}
+.pic img{
+    height: 610px;
+    width: 1535px;
+}
+.abtus{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    position: relative;
+    bottom: 200px;
+    left: 150px;
+    font-size: 65px;
+    text-shadow: 2px 2px 2px black;
+}
+.owner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 880px;
+    position: relative;
+    left: 500px;
+    border-radius: 20px;
+    padding-left: 10px;
+    bottom: 140px;
+}
+.content{
+    width: 700px;
+    text-align: center;
+    margin-right: 5px;
+}
+.photo{
+    border-radius: 0 20px 20px 0;
+    height: 300px;
+    width: 233px;
+}
+.owner:hover{
+    transform: scale(1.03);
+    border: 1px dashed saddlebrown;
+}
+.psg{
+    position: relative;
+    bottom: 50px;
+}
+.psg h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    padding: 15px;
+    padding-left: 30px;
+}
+.psg p{
+    text-align: center;
+    opacity: 0.85;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+.card{
+    position: relative;
+    top: 200px;
+}
+.card2{
+    position: relative;
+    top: 280px;
+    right: 400px;
+}
+.abc{
+    border-radius: 20px 0 0 20px;
+    position: relative;
+    right: 10px;
+}
+.psg2{
+    position: relative;
+    top: 270px;
+}
+.psg2 h1{
+   text-align: end;
+}
+.l{
+    position: relative;
+    top: 300px;
+}
+.review{
+    position: relative;
+    top: 330px;
+}
+.review h1{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    padding-bottom: 30px;
+    
+}
+.rv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 60px;
+    width: 500px;
+    
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 2px 2px rgba(92, 92, 92, 0.653);
+}
+.pp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.pp img{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+.pp h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.str{
+    width: 120px;
+}
+.rv p{
+    width: 450px;
+    margin-top: 15px;
+}
+.rv1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.bill{
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+}
+.rev{
+    position: relative;
+    top: 450px;
+    left: 665px;
+    width: 200px;
+    height:35px;
+    background-color: goldenrod;
+    border-radius: 50px;
+    border: 1px solid rgb(254, 253, 253);
+    color: white;
+    font-size: 17px;
+    
+}
+.rev:hover{
+    background-color: white;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+    cursor: pointer;
+}
+.write{
+    position: relative;
+    top: 470px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.write input{
+    width: 97vw;
+    height: 50px;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.tax{
+    height: 80px;
+}
+.submit{
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 650px;
+}
+.tax input{
+    height: 100px;
+}
+
+.hide{
+    display: none;
+}

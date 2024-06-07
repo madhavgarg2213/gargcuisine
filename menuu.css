@@ -1,0 +1,147 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.logo img{
+    width:150px;
+    position: relative;
+    z-index: 1;
+  
+}
+header{
+    display: flex;
+    height: 70px;
+    padding: 0 7vw;
+    background-color: rgb(249, 229, 211);
+    border-bottom: 2px solid goldenrod;
+    box-shadow: 100 100px 500px rgb(253, 248, 244);
+    z-index: 1;
+    
+}
+.a a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 80px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.2s;
+}
+.bar{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+.a{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.a a:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+
+.b a{
+    text-decoration: none;
+    margin-right: 22px;
+    color: black;
+    font-weight: 500;
+}
+.b{
+    margin-top: 25px;
+    
+}
+.b button{
+    
+    width: 80px;
+    height: 30px;
+    color: black;
+    background-color: rgb(244, 221, 121);
+    border: none;
+    border-radius: 1rem;
+    border:1px solid rgb(160, 136, 2);
+    font-weight: 500;
+    transition: 0.2s;
+}
+.b button:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+}
+.b a:hover{
+    font-weight: bold;
+    color: goldenrod;
+}
+.pic{
+    width: 100vw;
+}
+.pic img{
+    width: 99vw;
+    height: 580px;
+    z-index: 0;
+    overflow: hidden;
+}
+.heading{
+    position: relative;
+top: 100px;
+text-align: center;
+    font-style: italic;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.line{
+    position: relative;
+    text-align: center;
+    top: 125px;
+    opacity: 0.8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 15px;
+}
+.nvgt{
+    position: relative;
+    top: 260px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100px;
+    
+}
+h3{
+    border: 2px dotted grey;
+    border-top: none;
+    border-left: none;
+    padding: 10px 10px 10px 10px;
+    height: 20px;
+}
+h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.dinner{
+    position: relative;
+    top: 280px;
+   
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+    
+}
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.b{
+    position: relative;
+
+}
+.end{
+    position: relative;
+    top: 500px;
+    padding-bottom: 100px;
+
+}
