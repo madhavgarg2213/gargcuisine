@@ -10,6 +10,9 @@
     z-index: 1;
   
 }
+body{
+    background-color:rgba(250, 235, 215, 0.9);
+}
 header{
     display: flex;
     height: 70px;
